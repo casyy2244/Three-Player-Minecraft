@@ -1,0 +1,14 @@
+name: ThreeControlOne
+version: 1.0
+main: me.chatgpt.threecontrolone.ThreeControlOne
+api-version: 1.20
+commands:
+  setcontroller:
+    description: Assigns a controller role to a player
+    usage: /<command> <movement|camera|action> <player>
+  startcontrol:
+    description: Starts control for shared player
+    usage: /<command> <sharedPlayer>
+  stopcontrol:
+    description: Stops control
+    usage: /<command>
